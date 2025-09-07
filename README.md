@@ -48,4 +48,31 @@
 * Identify which financing methods drive the **highest long-term revenue**.  
 
 ### 🔹 C. Customer Segmentation & Behavior
-* Group customers by **income lev*
+* Group customers by **income level, age, and location**.  
+* Spot **repeat buyers** and **high-value customers**.  
+* Analyze purchase patterns for targeted marketing.  
+
+### 🔹 D. Dealer & Inventory Performance
+* Compare dealership branches on **revenue and profitability KPIs**.  
+* Track **inventory turnover** – which cars sell fastest vs. slowest.  
+* Support **data-driven pricing and stocking decisions**.  
+
+---
+
+## 📚 5. Documentation
+
+* A **Data Dictionary** is provided 📖 with descriptions of dataset fields (e.g., Car_Model, Sale_Price, Loan_Amount, Lease_Term, Profit_Margin).  
+* Each Tableau dashboard includes **annotations** for clarity and interpretation.  
+
+---
+
+## 📝 Summary
+
+This project demonstrates how Tableau can be used for **financial analytics in the auto dealership industry** by providing:
+
+1. 🧹 **Data preparation** (cleaning, integration, transformations).  
+2. 📈 **Dashboards** for sales, financing, customer, and inventory analysis.  
+3. 🔍 **Segmentation & trend analysis** for actionable insights.  
+4. 💰 **KPI tracking** for revenue, profit margins, and financing mix.  
+
+👉 The dashboards enable dealerships to make **data-driven business decisions**, optimize financing strategies, improve inventory planning, and boost overall profitability.  
