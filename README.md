@@ -1,78 +1,51 @@
-🚗 Auto Dealer Car Financial Analytics (Tableau Dashboard)
-📌 Project Overview
+# 🚗 Auto Dealer Car Financial Analytics (Tableau Project)
 
-Auto Dealer Car Financial Analytics is a Tableau-based dashboard solution designed for car dealerships to track, analyze, and optimize their financial performance.
-The dashboard provides end-to-end visibility into sales, revenue, financing, customer behavior, and profitability, helping dealerships make data-driven decisions.
+---
 
-🎯 Key Features
+## 📊 1. Dataset
 
-Sales Performance Tracking – Analyze sales by car model, make, dealership branch, and financing type (loan, lease, cash).
+* Contains **automobile dealership financial data**, including:  
+  - Vehicle details (make, model, year, price, cost, profit margin).  
+  - Sales data (cash, loan, or lease transactions).  
+  - Financing information (loan amount, lease term, interest rates).  
+  - Customer demographics (age, income group, location).  
+  - Dealer branch and salesperson info.  
 
-Revenue & Profit Analysis – Monitor gross profit, net profit, and margin trends.
+🎯 **Target metrics**: Revenue, Profitability, Sales Trends, and Financing Mix.
 
-Financing Insights – Compare loan vs. lease performance, average loan amounts, and customer payment trends.
+---
 
-Customer Segmentation – Identify high-value customer groups and repeat buyers.
+## 🛠️ 2. Data Preparation
 
-Inventory Turnover – Track which vehicles sell fastest and which remain unsold.
+* **📌 Cleaning**: Removed duplicates, corrected inconsistent labels (e.g., car model naming).  
+* **📌 Transformation**: Derived calculated fields such as:  
+  - Profit = Sale Price – Cost Price.  
+  - Financing Type Split (Loan vs. Lease vs. Cash).  
+  - Revenue Contribution by Car Category (SUV, Sedan, Truck, etc.).  
+* **📌 Integration**: Merged multiple dealership datasets (inventory, finance, sales) into a consolidated source.  
 
-Expense Monitoring – Compare operational costs (marketing, commissions, financing fees) against revenue.
+---
 
-Forecasting & KPIs – Predict future sales and cash flow based on historical data.
+## 🧩 3. Data Partitioning & Structure
 
-🛠️ Tech Stack
+* Dataset structured to support:  
+  - **Time-based analysis** (monthly/quarterly sales).  
+  - **Customer segmentation** (high-value vs low-value buyers).  
+  - **Branch-level performance** (dealership comparisons).  
 
-Tableau – Data visualization and dashboarding
+---
 
-Excel / SQL / CSV – Data sources for dealership financials, sales, and inventory
+## 🤖 4. Analytics & Dashboards (Tableau)
 
-ETL Tools (Optional) – For cleaning and transforming data before Tableau ingestion
+### 🔹 A. Sales & Revenue Analysis
+* Track sales by car model, dealer branch, and salesperson.  
+* Identify **top-performing vehicle categories** and **profit leaders**.  
+* Visualize **sales trends over time**.  
 
-📊 Dashboard Preview
+### 🔹 B. Financing Insights
+* Compare **loan vs lease vs cash** performance.  
+* Analyze **average loan size, lease term, and interest rates**.  
+* Identify which financing methods drive the **highest long-term revenue**.  
 
-(Insert screenshots or GIFs of your Tableau dashboards here)
-
-📂 Project Structure
-.
-├── data/               # Sample dataset (sales, financing, expenses, inventory)
-├── dashboards/         # Tableau packaged workbooks (.twbx)
-├── images/             # Dashboard screenshots
-└── README.md           # Project documentation
-
-🚀 How to Use
-
-Clone the repository:
-
-git clone https://github.com/your-username/auto-dealer-financial-analytics.git
-
-
-Open Tableau Desktop or Tableau Public.
-
-Load the dataset from /data.
-
-Explore dashboards from /dashboards.
-
-💡 Insights You Can Derive
-
-Which car models generate the highest profit margins?
-
-Do leases or loans bring in more recurring customers?
-
-Which dealership branches outperform others in sales?
-
-How do operational expenses impact profitability?
-
-What sales forecasts look like for upcoming quarters?
-
-📈 Example Use Case
-
-A dealership discovered that SUVs financed with long-term loans contributed 40% more to revenue than sedans, while lease customers showed higher repeat purchase rates. These insights helped adjust marketing strategies and inventory planning.
-
-🤝 Contributing
-
-Feel free to fork this repo and submit pull requests with improvements, additional datasets, or new dashboard designs.
-
-📜 License
-
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+### 🔹 C. Customer Segmentation & Behavior
+* Group customers by **income lev*
